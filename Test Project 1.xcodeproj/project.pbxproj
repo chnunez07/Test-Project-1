@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4232F5E01DE5BC2500D0B37B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4232F5DF1DE5BC2500D0B37B /* MapKit.framework */; };
 		429067611DE31CB500838E49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429067601DE31CB500838E49 /* AppDelegate.swift */; };
 		429067631DE31CB500838E49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429067621DE31CB500838E49 /* ViewController.swift */; };
 		429067661DE31CB500838E49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429067641DE31CB500838E49 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		4290676B1DE31CB500838E49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429067691DE31CB500838E49 /* LaunchScreen.storyboard */; };
 		429067761DE31CB500838E49 /* Test_Project_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429067751DE31CB500838E49 /* Test_Project_1Tests.swift */; };
 		429067811DE31CB500838E49 /* Test_Project_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429067801DE31CB500838E49 /* Test_Project_1UITests.swift */; };
+		42F97DAF1DE5C32600023FCA /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F97DAE1DE5C32600023FCA /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4232F5DF1DE5BC2500D0B37B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		4290675D1DE31CB500838E49 /* Test Project 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Project 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		429067601DE31CB500838E49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		429067621DE31CB500838E49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		4290677C1DE31CB500838E49 /* Test Project 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test Project 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		429067801DE31CB500838E49 /* Test_Project_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Project_1UITests.swift; sourceTree = "<group>"; };
 		429067821DE31CB500838E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F97DAE1DE5C32600023FCA /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4232F5E01DE5BC2500D0B37B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4232F5DE1DE5BC2400D0B37B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4232F5DF1DE5BC2500D0B37B /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		429067541DE31CB400838E49 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +94,7 @@
 				429067741DE31CB500838E49 /* Test Project 1Tests */,
 				4290677F1DE31CB500838E49 /* Test Project 1UITests */,
 				4290675E1DE31CB500838E49 /* Products */,
+				4232F5DE1DE5BC2400D0B37B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +113,7 @@
 			children = (
 				429067601DE31CB500838E49 /* AppDelegate.swift */,
 				429067621DE31CB500838E49 /* ViewController.swift */,
+				42F97DAE1DE5C32600023FCA /* LocationManager.swift */,
 				429067641DE31CB500838E49 /* Main.storyboard */,
 				429067671DE31CB500838E49 /* Assets.xcassets */,
 				429067691DE31CB500838E49 /* LaunchScreen.storyboard */,
@@ -261,6 +276,7 @@
 			files = (
 				429067631DE31CB500838E49 /* ViewController.swift in Sources */,
 				429067611DE31CB500838E49 /* AppDelegate.swift in Sources */,
+				42F97DAF1DE5C32600023FCA /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +519,7 @@
 				429067871DE31CB500838E49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		429067881DE31CB500838E49 /* Build configuration list for PBXNativeTarget "Test Project 1Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +528,7 @@
 				4290678A1DE31CB500838E49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4290678B1DE31CB500838E49 /* Build configuration list for PBXNativeTarget "Test Project 1UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +537,7 @@
 				4290678D1DE31CB500838E49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
